@@ -1,31 +1,37 @@
-# Git Beginner - PHP Oefeningen
+# PHP Portfolio - Bit Academy Oefeningen
 
-Welkom bij mijn portfolio-repository voor beginnersoefeningen in PHP. Dit project bevat verschillende scripts die ik heb geschreven tijdens mijn opleiding (o.a. Bit Academy) om de basis van programmeren onder de knie te krijgen.
+Welkom in mijn portfolio-repository! Dit project bevat een verzameling PHP-scripts die ik heb geschreven tijdens mijn opleiding aan de Bit Academy. De code laat mijn voortgang zien van absolute beginner tot het werken met complexere logica en command-line argumenten.
 
-## 📂 Inhoud van het project
+## 📂 Projectstructuur
 
-In deze repository vind je diverse scripts die demonstreren hoe PHP werkt in de command-line interface (CLI). De oefeningen behandelen de volgende concepten:
+De oefeningen zijn onderverdeeld in twee niveaus:
 
-* **Basis Output:** Het tonen van tekst ("Hello World") en variabelen.
-* **Gebruikersinteractie:** Input vragen en verwerken met `readline`.
-* **Logica & Condities:**
-    * `if`/`else` statements (leeftijdscheck, autorijden).
-    * Even/Oneven getal controles (modulo operator).
-    * Type controles en validatie (`is_numeric`).
-* **Rekenen:** Eenvoudige rekenmachines (+, -, *, /) en vermenigvuldigingstafels.
-* **Loops & Arrays:**
-    * Werken met arrays (lijsten met namen).
-    * Tellen van 1 tot 10 en aftellen.
-    * Itereren door arrays met `for` en `foreach` loops.
-* **Debuggen:** Gebruik van `var_dump` om types en waarden te inspecteren.
+### 1. Git Beginner (De Basis)
+In deze fase leerde ik de syntax van PHP en de basisprincipes van programmeren.
+* **Basis Output:** `echo`, strings samenvoegen en `PHP_EOL`.
+* **Variabelen:** Opslaan en hergebruiken van data.
+* **User Input:** Interactie via `readline()`.
+* **Basis Logica:** `if/else` statements (bijv. leeftijdscontrole).
+* **Rekenen:** Simpele calculators en de modulo operator (`%`).
+* **Loops:** Tellen en itereren met `for` loops.
+
+### 2. PHP Novice (Verdieping)
+Hier ga ik dieper in op algoritmes, datastructuren en input-verwerking.
+* **Nested Loops:** Piramides bouwen met `for` en `while` loops.
+* **Functies:** Herbruikbare codeblokken (bijv. faculteit berekenen).
+* **Arrays & Associative Arrays:**
+    * Werken met lijsten (bucketlist, klasgenoten).
+    * Key-Value paren (landen en hoofdsteden, wisselgeld).
+* **Command Line Arguments:** Gebruik van `$argv` en `$argc` om input direct bij het starten van het script mee te geven.
+* **Error Handling:**
+    * Validatie van input (`is_numeric`).
+    * Gebruik van `try`, `catch` en `throw new Exception`.
+* **Wiskundige Functies:** `floor()`, `round()` en complexe wisselgeld-berekeningen.
 
 ## 🚀 Hoe de scripts te gebruiken
 
-Zorg dat je PHP geïnstalleerd hebt op je computer. Je kunt de scripts uitvoeren via de terminal (command line).
+Zorg dat je PHP geïnstalleerd hebt. Je voert de scripts uit via de terminal.
 
-1.  Open je terminal of command prompt.
-2.  Navigeer naar de map van dit project.
-3.  Voer een bestand uit met het `php` commando:
-
+**Voor interactieve scripts (readline):**
 ```bash
 php bestandsnaam.php
