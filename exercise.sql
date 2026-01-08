@@ -1,1 +1,6 @@
 CREATE DATABASE sterrenstelsel;
+
+CREATE TABLE planeten (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    naam VARCHAR(100) NOT NULL
+);
