@@ -1,6 +1,4 @@
-## 📂 Projectstructuur
-
-De oefeningen zijn onderverdeeld in twee niveaus:
+## 📂 Projecten
 
 ### 1. Git Beginner (De Basis)
 In deze fase leerde ik de syntax van PHP en de basisprincipes van programmeren.
